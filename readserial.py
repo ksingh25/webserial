@@ -12,8 +12,6 @@ from datetime import datetime
 
 serialdev = '/dev/ttyUSB0'
 
-#close serial, disconnect MQTT
-
 def cleanup():
     print("Ending and cleaning up")
     ser.close()
