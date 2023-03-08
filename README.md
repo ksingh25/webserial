@@ -14,8 +14,10 @@ Give permission to dialout group
 
 `sudo usermod -a -G dialout $USER`
 
+Correct the .txt file path and device path (default is /dev/ttyUSB0) in readserial.py if needed. 
+Launch something on the serial port, for example a programm on ESP32 that prints something to serial port. 
 
-Then open two terminals. On first terminal launch readserial.py
+Open two terminals. On first terminal launch readserial.py
 
 `python3 readserial.py`
 
