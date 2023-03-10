@@ -26,7 +26,7 @@ On another terminal launch
 
 `python -m SimpleHTTPServer`
 
-After that the web page can be accessed though the IP address and port number (default is 8000).
+After that the web page can be accessed through the IP address and port number (default is 8000).
 For example on your PC it would be http://127.0.0.1:8000
 
 Note that the webpage only shows the last 1000 lines.
